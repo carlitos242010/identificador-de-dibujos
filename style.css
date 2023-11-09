@@ -1,0 +1,54 @@
+body
+{
+background-color: rgb(245, 221, 81);
+}
+
+h1
+{
+  color:rgb(206, 233, 248);
+  background-color:rgb(42, 12, 79);
+  text-align: center;
+
+  }
+#show_sketch
+{
+  float:right;
+  margin-top: 3px;
+  margin-right: 5px;
+  font-family: 'Gloock', serif;
+  
+}
+
+#label, #confidence{
+  font-family: 'Pacifico', cursive;
+  font-style:normal;
+  color: rgb(249, 247, 250);
+font-size: 30px;
+background-color: rgb(49, 21, 81);
+width: 30%;
+}
+canvas  
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(177, 242, 117);}
+  to {box-shadow: 1px 1px 38px rgb(5, 98, 248);}
+
+}
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
+/* hola*/
